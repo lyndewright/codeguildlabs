@@ -11,27 +11,24 @@
 # in a more human-readable format, you can use datetime.strftime.
 
 import datetime
+# import operator
+# import matplotlib.pyplot as plt
 
 
 
 with open('hayden_island.txt.rain', 'r', encoding='utf-8') as f:
-    file = f.readlines()
+    print(f.readlines())
 
 
-file_dict = { k:v for k, v in enumerate(file)}
 
 
-# del(file_dict)[1]
-print(file_dict)
-# remove_useless = []
-#         for i in text_list:
-#             if i.find('-', 11) > -1:
-#                 continue
-#             remove_useless.append(i)
-#         return {datetime.datetime.strptime(i.split()[0], '%d-%b-%Y'): list(map(lambda x: int(x), i.split()[1:])) for i in remove_useless}
 
-# print(file_list)
-# file_list = tuple(file_list)
+
+
+
+
+
+
 
 
 # date = datetime.datetime.strptime('25-MAR-2016', '%d-%b-%Y')
@@ -40,3 +37,6 @@ print(file_dict)
 # print(date.day)    # 25
 # print(date)  # 2016-03-25 00:00:00
 # print(date.strftime('%d-%b-%Y'))  # 25-Mar-2016
+
+
+
